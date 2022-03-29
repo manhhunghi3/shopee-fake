@@ -1,0 +1,40 @@
+.home-product__pagination{
+    margin: 50px 0;
+}
+.pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding-left: 0;
+}
+.pagination-item--action .pagination-item__link{
+    background-color: var(--primary-color);
+    color: #fff;
+}
+.pagination-item--action .pagination-item__link:hover{
+    background-color: rgba(238, 77, 45, 0.9);
+    color: #fff;
+}
+.pagination-item{
+    margin: 0 12px;
+
+}
+.pagination-item__link{
+    display: block;
+    text-decoration: none;
+    font-size: 2rem;
+    color: #939393;
+    min-width: 40px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 2px;
+    font-weight: 500;
+}
+.pagination-item__link:hover{
+    color: var(--primary-color);
+}
+.pagination-item__icon{
+    
+}

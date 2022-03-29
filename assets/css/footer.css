@@ -1,0 +1,126 @@
+.footer{
+    border-top: 4px solid var(--primary-color);
+    padding-top: 32px;
+}
+.footer__heading{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: rgba(0,0,0,0.54);
+}
+.footer__list{
+    padding-left: 0;
+    list-style: none;
+}
+.footer-item{
+
+}
+.footer__item-link{
+    text-decoration: none;
+    color: rgba(0,0,0,0.54);
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+    padding: 2px 0;
+    display: inline-block;
+}
+.footer__item-link:hover{
+    color: var(--primary-color);
+}
+.footer__item-link-icon{
+    display: inline-flex;
+    align-items: center;
+}
+.footer__item-link-icon-img{
+    height: 24px;
+    width: 24px;
+}
+.footer__item-link-icon-name{
+    line-height: 24px;
+    margin-left: 4px;
+}
+.footer-item-icon{
+    position: relative;
+    left: -3px;
+}
+.footer__download{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footer__download-qr{
+    width: 80px;
+    height: 80px;
+    border: 1px solid var(--border-color);
+    margin-right: 12px;
+}
+.footer__download-app-img{
+    height: 22px;
+}
+.footer__download-apps{
+    max-width: 106px;
+}
+.footer__download-apps-link{
+    text-decoration: none;
+    color: transparent;
+}
+/* ----------------------------------------- */
+.footer__bottom{
+    background-color: #f5f5f5;   
+}
+.footer__bottom-container{
+    padding: 42px 0 37px 0;
+    text-align: center;
+    font-size: 1.25rem;
+    color: rgba(0, 0, 0, 0.54);
+    font-weight: 400;
+}
+.footer__bottom-policy{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.footer__bottom-policy-link{
+    color: rgba(0, 0, 0, 0.54);
+    text-decoration: none;
+    padding: 0 25px;
+    text-transform: uppercase;
+}
+.footer__bottom-policy-link ~ .footer__bottom-policy-link{
+    border-left: 1px solid #ccc ;
+}
+.footer__bottom-company{
+    margin: 8px 0 25px 0;
+}
+.mt-8{
+    margin-top: 8px;
+}
+/* ----------------------------------------------- */
+.footer__mid{
+    background-color: #fbfbfb;
+    font-size: 1.4rem;
+    color: rgba(0, 0, 0, 0.54);
+}
+.footer__mid--center{
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+.footer__mid-permission{
+    flex-shrink: 0;
+    margin-right: 55px;
+}
+.footer__mid-area{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.footer__mid-area-link{
+    padding: 0 5px;
+    color: rgba(0, 0, 0, 0.54);
+    border-right: 1px solid rgba(0,0,0,.2);
+    text-decoration: none;
+}
+.footer__mid-area-link:last-child{
+    border-right: none;
+}
